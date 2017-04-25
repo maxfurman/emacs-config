@@ -62,3 +62,5 @@
 
 (global-set-key (kbd "H-o") 'ffip)
 (setq ffip-prune-patterns '("*/.git/*" "*/node_modules/*" "*/.vagrant/*" "*/*.cache" "*/vendor/bundle/*"))
+
+(global-set-key (kbd "C-c g") 'magit-status)

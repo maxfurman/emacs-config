@@ -76,3 +76,7 @@
 (setq electric-indent-mode nil)
 
 (add-hook 'text-mode 'visual-line-mode)
+
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+(global-set-key (kbd "M-\\") 'flycheck-buffer)
